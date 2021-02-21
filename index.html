@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Book Collection</h1>
+        <a href="#" class="btn login">Log In</a>
+    </nav>
+    <main>
+
+
+        <div class="overLayFlex">
+
+            <div class="overLayInfo">
+
+                <div class="leftOverlay">
+                    <img class="detail-popup-src" src="https://images-na.ssl-images-amazon.com/images/I/A1E+USP9f8L.jpg" alt="">
+                </div>
+
+                <div class="rightOverlay">
+                    <h2>Title: <br><span class="book-title">The Hobbit</span></h2>
+                    <br>
+                    <h2>Author: <br><span class="book-author">JRR Tolkin</span></h2>
+                    <br>
+                    <h2>Page Count: <br><span class="book-page">321</span></h2>
+
+
+                    <button class="remove-book">Remove Book</button>
+
+                </div>
+
+
+                <button class="close-popup">X</button>
+            </div>
+
+        </div>
+
+
+
+        <div class="item-container">
+            <div class="main-container">
+
+
+
+
+                
+    
+    
+            </div>
+
+        </div>
+
+
+            <footer>
+                <div class="left">
+                    <h2>Collection Information</h2>
+                    <ul>
+                        <li>Books: <span class="book-number">0</span></li>
+                        <li>Total Pages: <span class="page-number">0</span></li>
+                    </ul>
+
+
+                </div>
+
+                <div class="right">
+
+                    <div class="top form-popup">
+                        <form action="" onsubmit="return false">
+                            <label for="title">Book Title:</label>
+                            <input type="text" id="title">
+
+                            <label for="author">Book Author:</label>
+                            <input type="text" id="author">
+
+                            <label for="pNumber">Book Page Number:</label>
+                            <input type="number" id="pNumber">
+
+                            <label for="url">Img URL</label>
+                            <input type="text" name="" id="url">
+
+
+ 
+
+                            <button class="input-complete">Enter Book</button>
+                        </form>
+                    </div>
+
+
+                    <div class="bottom">
+                        <button class='add-book'>+</button>
+                    </div>
+
+
+                </div>
+
+
+
+            </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
